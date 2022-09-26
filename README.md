@@ -7,7 +7,7 @@ This API allows you to unshorten a shortened URL
 ## Build Docker Image
 
 - docker build -t unshortenit .
-- docker run -d --name urlunshortener -p 8082:80 unshortenit
+- docker run -d --name urlunshortener -p 8082:8000 unshortenit
 
 ## Demo
 
